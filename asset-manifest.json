@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/enegrysemulator.ml/static/css/main.dfb176b5.chunk.css",
-    "main.js": "/enegrysemulator.ml/static/js/main.c1938836.chunk.js",
-    "main.js.map": "/enegrysemulator.ml/static/js/main.c1938836.chunk.js.map",
-    "runtime-main.js": "/enegrysemulator.ml/static/js/runtime-main.82d5f91c.js",
-    "runtime-main.js.map": "/enegrysemulator.ml/static/js/runtime-main.82d5f91c.js.map",
-    "static/js/2.a5b30c2d.chunk.js": "/enegrysemulator.ml/static/js/2.a5b30c2d.chunk.js",
-    "static/js/2.a5b30c2d.chunk.js.map": "/enegrysemulator.ml/static/js/2.a5b30c2d.chunk.js.map",
-    "index.html": "/enegrysemulator.ml/index.html",
-    "precache-manifest.25c59532216a01f3097eb7ae85fef27b.js": "/enegrysemulator.ml/precache-manifest.25c59532216a01f3097eb7ae85fef27b.js",
-    "service-worker.js": "/enegrysemulator.ml/service-worker.js",
-    "static/css/main.dfb176b5.chunk.css.map": "/enegrysemulator.ml/static/css/main.dfb176b5.chunk.css.map",
-    "static/js/2.a5b30c2d.chunk.js.LICENSE.txt": "/enegrysemulator.ml/static/js/2.a5b30c2d.chunk.js.LICENSE.txt",
-    "static/media/FormInput.css": "/enegrysemulator.ml/static/media/futuramediumbt.ee64fb9d.ttf",
-    "static/media/output.scss": "/enegrysemulator.ml/static/media/bg.fea5e4d7.png"
+    "main.css": "/static/css/main.cc4159e9.chunk.css",
+    "main.js": "/static/js/main.c1938836.chunk.js",
+    "main.js.map": "/static/js/main.c1938836.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.a5b30c2d.chunk.js": "/static/js/2.a5b30c2d.chunk.js",
+    "static/js/2.a5b30c2d.chunk.js.map": "/static/js/2.a5b30c2d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c959a532b65405a9a8a655006dca381a.js": "/precache-manifest.c959a532b65405a9a8a655006dca381a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cc4159e9.chunk.css.map": "/static/css/main.cc4159e9.chunk.css.map",
+    "static/js/2.a5b30c2d.chunk.js.LICENSE.txt": "/static/js/2.a5b30c2d.chunk.js.LICENSE.txt",
+    "static/media/FormInput.css": "/static/media/futuramediumbt.ee64fb9d.ttf",
+    "static/media/output.scss": "/static/media/bg.fea5e4d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.82d5f91c.js",
+    "static/js/runtime-main.83c3e0c4.js",
     "static/js/2.a5b30c2d.chunk.js",
-    "static/css/main.dfb176b5.chunk.css",
+    "static/css/main.cc4159e9.chunk.css",
     "static/js/main.c1938836.chunk.js"
   ]
 }

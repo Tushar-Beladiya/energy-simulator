@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://enegrysemulator.ml",
+  "homepage": "enegrysemulator.ml",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

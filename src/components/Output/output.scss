@@ -1,0 +1,290 @@
+.mainWraper {
+  background-image: url("../../images/bg.png");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-color: #ececec;
+}
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+.box > .icon {
+  text-align: center;
+  position: relative;
+}
+.box > .icon > .image {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  border: 8px solid white;
+  line-height: 88px;
+  border-radius: 50%;
+  background: #63b76c;
+  vertical-align: middle;
+}
+/* .box > .icon:hover > .image {
+  background: #333;
+} */
+.box > .icon > .image > i {
+  font-size: 36px !important;
+  color: #fff !important;
+}
+
+.box > .icon > .info {
+  margin-top: -24px;
+  background-color: #fff;
+  opacity: 0.9;
+  border: 1px solid #e0e0e0;
+  padding: 15px 0 10px 0;
+}
+.box > .icon:hover > .info {
+  background: #63b76c;
+  border-color: #e0e0e0 !important;
+  color: white;
+}
+.box > .icon > .info > h3.title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+.box > .icon > .info > p {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5em;
+  margin: 20px;
+}
+.box > .icon:hover > .info > h3.title,
+.box > .icon:hover > .info > p,
+.box > .icon:hover > .info > .more > a {
+  color: #222;
+}
+.box > .icon > .info > .more a {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 12px;
+  color: #222;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.box > .icon:hover > .info > .more > a {
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #63b76c;
+}
+.box .space {
+  height: 30px;
+}
+h3.title {
+  margin-top: 21px;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  color: #2188c3 !important;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+* {
+  transition: all 0.3s ease-out;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: #262626;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+
+  &.big {
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
+.innerContainer {
+  margin-top: 3rem;
+}
+.row {
+  margin-top: 4rem;
+}
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #00838d;
+  border-radius: 0 4px 0 32px;
+}
+.mainTitle {
+  font-size: 75px;
+}
+.small {
+  margin-bottom: 0px !important;
+  color: #00838d;
+  font-weight: 600;
+}
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+.outputTitleWraper {
+  margin-bottom: 0 !important;
+}
+
+.spanWraper {
+  color: #00838d;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card1 {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+  display: block;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  max-width: 350px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    text-decoration: none;
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(21);
+  }
+}
+
+.card1:hover {
+  p {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  span {
+    color: white;
+  }
+  h3 {
+    transition: all 0.3s ease-out;
+    color: #ffffff;
+  }
+}
+
+.infoWraper {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+  margin-top: 30px !important;
+  margin-bottom: 2.7rem !important;
+  width: 75%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  justify-content: left;
+  opacity: 0.8;
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: orange;
+  }
+}
+p.mainTitle {
+  text-align: center;
+}
+
+.loaderWraper {
+  margin-top: 7rem;
+  text-align: center;
+  svg {
+    fill: #00838d;
+  }
+}
+
+.mainTitleWraper {
+  margin-top: 26px;
+}
+.proposalBtn {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.proposalBtn button {
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 12px;
+  width: 26%;
+  background-color: #fe6148 !important;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  padding: 18px;
+  background: #494449;
+}
+.contact {
+  margin-top: 10px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.contact-link {
+  text-decoration: underline;
+  color: white;
+}
+.contact-link:hover {
+  color: #fe6148;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./FormInput.css";
 import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
@@ -134,7 +134,7 @@ function FormInput({ getFormData }) {
                       })}
                       defaultValue={0}
                     />
-                    <label>Demanda Fora Ponta (kW)</label>
+                    <label>Demanda Fora Ponta (MWh)</label>
                   </div>
                   <div class="feild_box">
                     <input
@@ -146,7 +146,7 @@ function FormInput({ getFormData }) {
                         required: "Demanda Ponta is missing",
                       })}
                     />
-                    <label>Demanda Ponta (kW)</label>
+                    <label>Demanda Ponta (MWh)</label>
                   </div>
                   <div class="feild_box">
                     <input
@@ -158,7 +158,7 @@ function FormInput({ getFormData }) {
                         required: "Consumo Fora Ponta is missing",
                       })}
                     />
-                    <label>Consumo Fora Ponta (kWh)</label>
+                    <label>Consumo Fora Ponta (MWh)</label>
                   </div>
                   <div class="feild_box">
                     <input
@@ -170,7 +170,7 @@ function FormInput({ getFormData }) {
                         required: "Consumo Ponta is missing",
                       })}
                     />
-                    <label>Consumo Ponta (kWh)</label>
+                    <label>Consumo Ponta (MWh)</label>
                   </div>
                 </div>
                 <div class="second_feild">
@@ -184,7 +184,7 @@ function FormInput({ getFormData }) {
                         required: "ICMS is missing",
                       })}
                     />
-                    <label>Icms (%)</label>
+                    <label>Icms</label>
                   </div>
                   <div class="feild_box">
                     <input
@@ -196,7 +196,7 @@ function FormInput({ getFormData }) {
                         required: "Pis is missing",
                       })}
                     />
-                    <label>PIS (%)</label>
+                    <label>PIS</label>
                   </div>
                   <div class="feild_box">
                     <input
@@ -209,7 +209,7 @@ function FormInput({ getFormData }) {
                         required: "cofins is missing",
                       })}
                     />
-                    <label>COFINS(%)</label>
+                    <label>COFINS</label>
                   </div>
                 </div>
                 <div class="simulation">

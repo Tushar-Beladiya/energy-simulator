@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
-import { useForm } from "react-hook-form";
 import axios from "axios";
 import Loader from "react-loader-spinner";
 import { Button, Form, Modal } from "react-bootstrap";
@@ -45,20 +43,6 @@ function Output({ formData }) {
   ];
 
   useEffect(() => {
-    const data = {
-      distribuidora: "EMT",
-      modalidade: "Azul",
-      classe: "NÃ£o se aplica",
-      tensao: "A4",
-      fase: "TRIFASICO",
-      demanda_fora_ponta_kw: 592,
-      demanda_ponta_kw: 584,
-      consumo_medio_fp_mwh: 360.394,
-      consumo_medio_p_mwh: 34.041,
-      icms: 0.3,
-      pis: 0.0155,
-      cofins: 0.0715,
-    };
     // "Energy-Simulator-Auth": "93906abd-5573-4f82-935e-d37490362306",
 
     axios

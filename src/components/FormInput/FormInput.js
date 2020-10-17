@@ -134,7 +134,7 @@ function FormInput({ getFormData }) {
                       })}
                       defaultValue={0}
                     />
-                    <label>Demanda Fora Ponta (MWh)</label>
+                    <label>Demanda Fora Ponta (KW)</label>
                   </div>
                   <div class="feild_box">
                     <input
@@ -146,7 +146,7 @@ function FormInput({ getFormData }) {
                         required: "Demanda Ponta is missing",
                       })}
                     />
-                    <label>Demanda Ponta (MWh)</label>
+                    <label>Demanda Ponta (KW)</label>
                   </div>
                   <div class="feild_box">
                     <input
